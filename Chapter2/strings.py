@@ -54,5 +54,4 @@ print(ord('\n')) # \n is a byte with the binary value 10 in ASCII
 msg = """ aaaaaaaaaaaaa
 bbb'''bbbbbbbbbb""bbbbbbb'bbbb
 cccccccccccccc"""
-
 print(msg)

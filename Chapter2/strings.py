@@ -42,7 +42,7 @@ print('%s, eggs, and %s' % ('spam', 'SPAM!'))
 
 #HELP
 """
-The dir function simply gives the methods’ names. To ask what they do, you can pass
+The dir function simply gives the methods names. To ask what they do, you can pass
 them to the help function:
 """
 print(help(S.replace))

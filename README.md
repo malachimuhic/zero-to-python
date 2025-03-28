@@ -53,3 +53,25 @@ Need ideas for what to create? Here are some good project ideas.
 
 And remember: “All we have to decide is what to do with the time that is given to us.” Spend it learning Python, and you may yet become a coding wizard.
 
+# Variables
+
+    A varaible is the name for a reference that is stored in a computer's memory
+
+    example in Python
+
+        name = "John Doe"
+        age = 30 
+        height = 1.75
+        is_student = false
+
+    each instance above is a different example of defining a value to be stored in a computer. The examples listed above actaully 
+
+# Functions
+
+    Functions can be defined 
+
+# conditionals
+
+    pythonic code
+
+    keyword: match (switch in other languages)

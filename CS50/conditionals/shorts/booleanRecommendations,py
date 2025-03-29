@@ -1,0 +1,28 @@
+"""
+How to use the 'not'/'and' conditional statement with Boolean values
+
+"""
+def main():
+    difficulty = input("Do you like 'difficult' or 'casual' games? ")
+    if not (difficulty == "difficult" or difficulty == "casual"):
+        print("Enter a valid difficulty")
+        return 
+
+    player_amount = input("Do you like 'multiplayer' or 'single-player' ? ")
+    if not (player_amount == "multiplayer" or player_amount == "single-player"):
+        print("Enter a valid number of players")
+        return 
+
+    if difficulty == "difficult" and player_amount == "multiplayer":
+        recommend("Poker")
+    elif difficulty == "difficult" and player_amount == "single-player":
+        recommend("Soliatre")
+    elif difficulty == "casual" and player_amount == "multiplayer":
+        recommend("Ten-thousand")
+    else:
+        recommend("52-pickup")
+
+def recommend(game):
+    print("You might like", game)
+
+main()
